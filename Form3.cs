@@ -16,5 +16,12 @@ namespace _3BimAtividadeApp
         {
             InitializeComponent();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmMenu Menu = new frmMenu();
+            Menu.Show();
+        }
     }
 }

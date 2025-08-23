@@ -30,8 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiRendaJogo = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiValorLivros = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,17 +50,11 @@
             // programasToolStripMenuItem
             // 
             this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiRendaJogo});
+            this.tsmiRendaJogo,
+            this.tsmiValorLivros});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
-            // 
-            // tsmiSair
-            // 
-            this.tsmiSair.Name = "tsmiSair";
-            this.tsmiSair.Size = new System.Drawing.Size(38, 20);
-            this.tsmiSair.Text = "Sair";
-            this.tsmiSair.Click += new System.EventHandler(this.tsmiSair_Click);
             // 
             // tsmiRendaJogo
             // 
@@ -67,6 +62,20 @@
             this.tsmiRendaJogo.Size = new System.Drawing.Size(201, 22);
             this.tsmiRendaJogo.Text = "Renda Total de um Jogo";
             this.tsmiRendaJogo.Click += new System.EventHandler(this.tsmiRendaJogo_Click);
+            // 
+            // tsmiValorLivros
+            // 
+            this.tsmiValorLivros.Name = "tsmiValorLivros";
+            this.tsmiValorLivros.Size = new System.Drawing.Size(201, 22);
+            this.tsmiValorLivros.Text = "Valor Total de Livros";
+            this.tsmiValorLivros.Click += new System.EventHandler(this.tsmiValorLivros_Click);
+            // 
+            // tsmiSair
+            // 
+            this.tsmiSair.Name = "tsmiSair";
+            this.tsmiSair.Size = new System.Drawing.Size(38, 20);
+            this.tsmiSair.Text = "Sair";
+            this.tsmiSair.Click += new System.EventHandler(this.tsmiSair_Click);
             // 
             // frmMenu
             // 
@@ -92,6 +101,7 @@
         private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmiSair;
         private System.Windows.Forms.ToolStripMenuItem tsmiRendaJogo;
+        private System.Windows.Forms.ToolStripMenuItem tsmiValorLivros;
     }
 }
 

@@ -28,5 +28,12 @@ namespace _3BimAtividadeApp
             frmRendaJogo RendaJogo = new frmRendaJogo();
             RendaJogo.Show();
         }
+
+        private void tsmiValorLivros_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmValorLivros ValorLivros = new frmValorLivros();
+            ValorLivros.Show();
+        }
     }
 }

@@ -46,6 +46,7 @@
             this.btnLimpar.TabIndex = 9;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnCalcular
             // 
@@ -56,6 +57,7 @@
             this.btnCalcular.TabIndex = 8;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnVoltar
             // 

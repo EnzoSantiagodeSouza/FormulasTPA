@@ -23,5 +23,24 @@ namespace _3BimAtividadeApp
             frmMenu Menu = new frmMenu();
             Menu.Show();
         }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            double TotalLivros, ValorTotal;
+
+            TotalLivros = Convert.ToDouble(txtTotalLivros.Text);
+
+            if (TotalLivros <= 10)           
+                ValorTotal = TotalLivros * 12;                         
+            else
+                ValorTotal = TotalLivros * 8;
+            txtValorTotal.Text = ValorTotal.ToString();
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtTotalLivros.Clear();
+            txtValorTotal.Clear();
+        }
     }
 }

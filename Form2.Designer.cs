@@ -73,16 +73,17 @@
             this.txtPublicoTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPublicoTotal.Location = new System.Drawing.Point(372, 87);
             this.txtPublicoTotal.Name = "txtPublicoTotal";
-            this.txtPublicoTotal.Size = new System.Drawing.Size(194, 29);
+            this.txtPublicoTotal.Size = new System.Drawing.Size(402, 29);
             this.txtPublicoTotal.TabIndex = 3;
             // 
             // txtRendaTotal
             // 
-            this.txtRendaTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRendaTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRendaTotal.Location = new System.Drawing.Point(372, 159);
+            this.txtRendaTotal.Multiline = true;
             this.txtRendaTotal.Name = "txtRendaTotal";
             this.txtRendaTotal.ReadOnly = true;
-            this.txtRendaTotal.Size = new System.Drawing.Size(194, 29);
+            this.txtRendaTotal.Size = new System.Drawing.Size(402, 29);
             this.txtRendaTotal.TabIndex = 4;
             // 
             // btnCalcular

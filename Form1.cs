@@ -21,5 +21,12 @@ namespace _3BimAtividadeApp
         {
             Application.Exit();
         }
+
+        private void tsmiRendaJogo_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmRendaJogo RendaJogo = new frmRendaJogo();
+            RendaJogo.Show();
+        }
     }
 }

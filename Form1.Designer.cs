@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiRendaJogo = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +48,8 @@
             // 
             // programasToolStripMenuItem
             // 
+            this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiRendaJogo});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -58,11 +61,19 @@
             this.tsmiSair.Text = "Sair";
             this.tsmiSair.Click += new System.EventHandler(this.tsmiSair_Click);
             // 
+            // tsmiRendaJogo
+            // 
+            this.tsmiRendaJogo.Name = "tsmiRendaJogo";
+            this.tsmiRendaJogo.Size = new System.Drawing.Size(201, 22);
+            this.tsmiRendaJogo.Text = "Renda Total de um Jogo";
+            this.tsmiRendaJogo.Click += new System.EventHandler(this.tsmiRendaJogo_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenu";
@@ -80,6 +91,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmiSair;
+        private System.Windows.Forms.ToolStripMenuItem tsmiRendaJogo;
     }
 }
 

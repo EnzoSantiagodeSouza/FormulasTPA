@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace _3BimAtividadeApp
 {
-    public partial class Form1 : Form
+    public partial class frmMenu : Form
     {
-        public Form1()
+        public frmMenu()
         {
             InitializeComponent();
+        }
+
+        private void tsmiSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

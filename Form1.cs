@@ -35,5 +35,19 @@ namespace _3BimAtividadeApp
             frmValorLivros ValorLivros = new frmValorLivros();
             ValorLivros.Show();
         }
+
+        private void tsmiAbonoSalarial_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmAbonoSalarial AbonoSalarial = new frmAbonoSalarial();
+            AbonoSalarial.Show();
+        }
+
+        private void tsmiInfoCardapio_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmInfoCardapio infoCardapio = new frmInfoCardapio();
+            infoCardapio.Show();
+        }
     }
 }

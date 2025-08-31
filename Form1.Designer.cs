@@ -33,6 +33,8 @@
             this.tsmiRendaJogo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiValorLivros = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAbonoSalarial = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiInfoCardapio = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +53,9 @@
             // 
             this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiRendaJogo,
-            this.tsmiValorLivros});
+            this.tsmiValorLivros,
+            this.tsmiAbonoSalarial,
+            this.tsmiInfoCardapio});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -76,6 +80,20 @@
             this.tsmiSair.Size = new System.Drawing.Size(38, 20);
             this.tsmiSair.Text = "Sair";
             this.tsmiSair.Click += new System.EventHandler(this.tsmiSair_Click);
+            // 
+            // tsmiAbonoSalarial
+            // 
+            this.tsmiAbonoSalarial.Name = "tsmiAbonoSalarial";
+            this.tsmiAbonoSalarial.Size = new System.Drawing.Size(201, 22);
+            this.tsmiAbonoSalarial.Text = "Abono Salarial";
+            this.tsmiAbonoSalarial.Click += new System.EventHandler(this.tsmiAbonoSalarial_Click);
+            // 
+            // tsmiInfoCardapio
+            // 
+            this.tsmiInfoCardapio.Name = "tsmiInfoCardapio";
+            this.tsmiInfoCardapio.Size = new System.Drawing.Size(201, 22);
+            this.tsmiInfoCardapio.Text = "Info Cardápio";
+            this.tsmiInfoCardapio.Click += new System.EventHandler(this.tsmiInfoCardapio_Click);
             // 
             // frmMenu
             // 
@@ -102,6 +120,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiSair;
         private System.Windows.Forms.ToolStripMenuItem tsmiRendaJogo;
         private System.Windows.Forms.ToolStripMenuItem tsmiValorLivros;
+        private System.Windows.Forms.ToolStripMenuItem tsmiAbonoSalarial;
+        private System.Windows.Forms.ToolStripMenuItem tsmiInfoCardapio;
     }
 }
 

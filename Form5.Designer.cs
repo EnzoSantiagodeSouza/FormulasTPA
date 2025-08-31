@@ -31,24 +31,24 @@
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.lblCodProduto = new System.Windows.Forms.Label();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.txtInfo = new System.Windows.Forms.TextBox();
+            this.btnInformar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtCodigo
             // 
             this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(337, 109);
+            this.txtCodigo.Location = new System.Drawing.Point(314, 109);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(259, 29);
+            this.txtCodigo.Size = new System.Drawing.Size(144, 29);
             this.txtCodigo.TabIndex = 0;
             // 
             // lblCodProduto
             // 
             this.lblCodProduto.AutoSize = true;
             this.lblCodProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodProduto.Location = new System.Drawing.Point(49, 112);
+            this.lblCodProduto.Location = new System.Drawing.Point(26, 112);
             this.lblCodProduto.Name = "lblCodProduto";
             this.lblCodProduto.Size = new System.Drawing.Size(282, 24);
             this.lblCodProduto.TabIndex = 1;
@@ -63,16 +63,7 @@
             this.btnVoltar.TabIndex = 2;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
-            // 
-            // btnCalcular
-            // 
-            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(568, 380);
-            this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(100, 35);
-            this.btnCalcular.TabIndex = 3;
-            this.btnCalcular.Text = "Calcular";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnLimpar
             // 
@@ -83,14 +74,26 @@
             this.btnLimpar.TabIndex = 4;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // txtInfo
             // 
             this.txtInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtInfo.Location = new System.Drawing.Point(337, 167);
+            this.txtInfo.Location = new System.Drawing.Point(314, 167);
             this.txtInfo.Name = "txtInfo";
-            this.txtInfo.Size = new System.Drawing.Size(259, 29);
+            this.txtInfo.Size = new System.Drawing.Size(430, 29);
             this.txtInfo.TabIndex = 5;
+            // 
+            // btnInformar
+            // 
+            this.btnInformar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInformar.Location = new System.Drawing.Point(568, 380);
+            this.btnInformar.Name = "btnInformar";
+            this.btnInformar.Size = new System.Drawing.Size(100, 35);
+            this.btnInformar.TabIndex = 6;
+            this.btnInformar.Text = "Informar";
+            this.btnInformar.UseVisualStyleBackColor = true;
+            this.btnInformar.Click += new System.EventHandler(this.btnInformar_Click);
             // 
             // frmInfoCardapio
             // 
@@ -98,9 +101,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.btnInformar);
             this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.btnLimpar);
-            this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.lblCodProduto);
             this.Controls.Add(this.txtCodigo);
@@ -117,8 +120,8 @@
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Label lblCodProduto;
         private System.Windows.Forms.Button btnVoltar;
-        private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.TextBox txtInfo;
+        private System.Windows.Forms.Button btnInformar;
     }
 }

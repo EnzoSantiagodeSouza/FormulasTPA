@@ -35,6 +35,7 @@
             this.tsmiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAbonoSalarial = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiInfoCardapio = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiIMC = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +56,8 @@
             this.tsmiRendaJogo,
             this.tsmiValorLivros,
             this.tsmiAbonoSalarial,
-            this.tsmiInfoCardapio});
+            this.tsmiInfoCardapio,
+            this.tsmiIMC});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -95,6 +97,13 @@
             this.tsmiInfoCardapio.Text = "Info Cardápio";
             this.tsmiInfoCardapio.Click += new System.EventHandler(this.tsmiInfoCardapio_Click);
             // 
+            // tsmiIMC
+            // 
+            this.tsmiIMC.Name = "tsmiIMC";
+            this.tsmiIMC.Size = new System.Drawing.Size(201, 22);
+            this.tsmiIMC.Text = "IMC";
+            this.tsmiIMC.Click += new System.EventHandler(this.tsmiIMC_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,6 +131,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiValorLivros;
         private System.Windows.Forms.ToolStripMenuItem tsmiAbonoSalarial;
         private System.Windows.Forms.ToolStripMenuItem tsmiInfoCardapio;
+        private System.Windows.Forms.ToolStripMenuItem tsmiIMC;
     }
 }
 

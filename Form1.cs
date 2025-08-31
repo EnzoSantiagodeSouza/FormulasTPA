@@ -49,5 +49,12 @@ namespace _3BimAtividadeApp
             frmInfoCardapio infoCardapio = new frmInfoCardapio();
             infoCardapio.Show();
         }
+
+        private void tsmiIMC_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmIMC IMC = new frmIMC();
+            IMC.Show();
+        }
     }
 }

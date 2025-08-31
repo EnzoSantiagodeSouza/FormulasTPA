@@ -42,7 +42,7 @@
             // txtAltura
             // 
             this.txtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAltura.Location = new System.Drawing.Point(439, 119);
+            this.txtAltura.Location = new System.Drawing.Point(398, 119);
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(100, 29);
             this.txtAltura.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             this.lblAltura.AutoSize = true;
             this.lblAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAltura.Location = new System.Drawing.Point(214, 122);
+            this.lblAltura.Location = new System.Drawing.Point(173, 122);
             this.lblAltura.Name = "lblAltura";
             this.lblAltura.Size = new System.Drawing.Size(219, 24);
             this.lblAltura.TabIndex = 1;
@@ -66,6 +66,7 @@
             this.btnVoltar.TabIndex = 2;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnCalcular
             // 
@@ -76,6 +77,7 @@
             this.btnCalcular.TabIndex = 3;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnLimpar
             // 
@@ -86,12 +88,13 @@
             this.btnLimpar.TabIndex = 4;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // lblPeso
             // 
             this.lblPeso.AutoSize = true;
             this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(213, 157);
+            this.lblPeso.Location = new System.Drawing.Point(172, 157);
             this.lblPeso.Name = "lblPeso";
             this.lblPeso.Size = new System.Drawing.Size(220, 24);
             this.lblPeso.TabIndex = 5;
@@ -100,7 +103,7 @@
             // txtPeso
             // 
             this.txtPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPeso.Location = new System.Drawing.Point(439, 154);
+            this.txtPeso.Location = new System.Drawing.Point(398, 154);
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(100, 29);
             this.txtPeso.TabIndex = 6;
@@ -108,16 +111,16 @@
             // txtIMC
             // 
             this.txtIMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIMC.Location = new System.Drawing.Point(439, 189);
+            this.txtIMC.Location = new System.Drawing.Point(398, 189);
             this.txtIMC.Name = "txtIMC";
-            this.txtIMC.Size = new System.Drawing.Size(100, 29);
+            this.txtIMC.Size = new System.Drawing.Size(291, 29);
             this.txtIMC.TabIndex = 7;
             // 
             // lblIMC
             // 
             this.lblIMC.AutoSize = true;
             this.lblIMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIMC.Location = new System.Drawing.Point(338, 192);
+            this.lblIMC.Location = new System.Drawing.Point(173, 189);
             this.lblIMC.Name = "lblIMC";
             this.lblIMC.Size = new System.Drawing.Size(95, 24);
             this.lblIMC.TabIndex = 8;

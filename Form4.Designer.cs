@@ -86,11 +86,11 @@
             // 
             this.lblSexo.AutoSize = true;
             this.lblSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSexo.Location = new System.Drawing.Point(64, 186);
+            this.lblSexo.Location = new System.Drawing.Point(8, 186);
             this.lblSexo.Name = "lblSexo";
-            this.lblSexo.Size = new System.Drawing.Size(320, 24);
+            this.lblSexo.Size = new System.Drawing.Size(376, 24);
             this.lblSexo.TabIndex = 4;
-            this.lblSexo.Text = "Informe o sexo do funcionário(a):";
+            this.lblSexo.Text = "Informe o sexo (F/M) do funcionário(a):";
             // 
             // lblIdade
             // 
@@ -138,11 +138,12 @@
             // 
             // txtNSalario
             // 
-            this.txtNSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNSalario.Location = new System.Drawing.Point(412, 264);
+            this.txtNSalario.Multiline = true;
             this.txtNSalario.Name = "txtNSalario";
             this.txtNSalario.ReadOnly = true;
-            this.txtNSalario.Size = new System.Drawing.Size(304, 29);
+            this.txtNSalario.Size = new System.Drawing.Size(304, 27);
             this.txtNSalario.TabIndex = 10;
             // 
             // btnCalcular

@@ -50,7 +50,7 @@ namespace _3BimAtividadeApp
                     nsalario = salario + 50;
             }
 
-            txtNSalario.Text = nsalario.ToString() + " Esse é o novo salário de " + nome;
+            txtNSalario.Text = nsalario.ToString() + " - Esse é o novo salário de " + nome;
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
